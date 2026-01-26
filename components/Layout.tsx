@@ -25,7 +25,7 @@ export const Layout: React.FC<LayoutProps> = ({ children, activeView, onNavigate
         </div>
         <nav className="flex items-center gap-6 overflow-x-auto pb-2 md:pb-0">
           {[
-            { id: AppView.Workshop, label: 'Build in 4 steps' },
+            { id: AppView.Workshop, label: 'Build in 5 steps' },
             { id: AppView.Translator, label: 'Jargon Translator' },
             { id: AppView.Library, label: 'Library' },
             { id: AppView.Connect, label: 'Live Sessions' },

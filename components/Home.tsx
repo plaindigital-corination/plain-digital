@@ -23,7 +23,7 @@ export const Home: React.FC<HomeProps> = ({ onStart }) => {
               onClick={() => onStart(AppView.Workshop)}
               className="px-8 py-4 bg-neutral-700 text-white rounded-full font-bold hover:bg-neutral-600 transition-all hover:scale-[1.02] active:scale-[0.98] shadow-xl text-base"
             >
-              Build in 4 steps
+              Build in 5 steps
             </button>
             <button 
               onClick={() => onStart(AppView.Translator)}
